@@ -1,0 +1,15 @@
+{
+  "id": "momentum",
+  "name": "Momentum",
+  "description": "Allows for vanilla tile entities to be pushed by pistons. Exposes an API for mod authors to make their blocks pushable.",
+  "version": "1.0.0",
+  "side": "universal",
+  "initializer": "net.fabricmc.example.ExampleMod",
+  "requires": {
+    "fabric": "*"
+  },
+  "mixins": {
+    "client": "momentum.client.json",
+    "common": "momentum.common.json"
+  }
+}

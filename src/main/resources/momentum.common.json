@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "hu.frontrider.momentum",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PistonMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
